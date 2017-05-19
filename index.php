@@ -1,5 +1,21 @@
 <html>
  <head>
+<style>
+svg{
+	height : 100%;
+	width  : 100%;
+}
+
+svg {
+	transition        : stroke-dashoffset 0.66s ease-out;
+	stroke-dasharray  : 400;
+	stroke-dashoffset : 0;
+}
+
+svg:hover{
+	stroke-dashoffset:400;
+}
+</style>
  </head>
  <body>
 	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 259.91937 212.55713" >
